@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.col-md-2 cw {
+  border:2px solid white;
+  text-align:center;
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body style = background-color:#85e0e0;>
+<marquee scrollamount="20"><h2 style=" border:2px solid white;text-align:center;padding:10px;color:white;">PLACES TO VISIT</h2></marquee>
+<div class="row">
+  <div class="col-md-2 cw">
+<img src="sl.jpg" alt="STATUE OF LIBERTY" style="width:230px;height:162px;border :2px solid white;">
+	<h3 style = "color:white;"> STATUE OF LIBERTY</h3>
+<a href="https://www.google.com/maps/place/Statue+of+Liberty+National+Monument/@40.6892494,-74.0445004,15z/data=!4m5!3m4!1s0x0:0x40c6a5770d25022b!8m2!3d40.6892494!4d-74.0445004?hl=en-GB">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="cp.jpg" alt="CENTRAL PARK" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> CENTRAL PARK</h3>
+<a href="https://www.google.com/maps/place/Central+Park/@40.7812199,-73.9665138,15z/data=!4m5!3m4!1s0x0:0xb9df1f7387a94119!8m2!3d40.7812199!4d-73.9665138?hl=en-GB">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="mma.jpg" alt="THE METROPOLITAN MUSEUM OF ART" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> THE METROPOLITAN MUSEUM OF ART</h3>
+<a href="https://www.google.com/maps/place/The+Metropolitan+Museum+of+Art/@40.7794366,-73.963244,15z/data=!4m5!3m4!1s0x0:0x3b2fa4f4b6c6a1fa!8m2!3d40.7794366!4d-73.963244?hl=en-GB">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="esb.jpg" alt="EMPIRE STATE BUILDING" style=" width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> EMPIRE STATE BUILDING</h3>
+<a href="https://www.google.com/maps/place/Empire+State+Building/@40.7484405,-73.9856644,15z/data=!4m5!3m4!1s0x0:0xd134e199a405a163!8m2!3d40.7484405!4d-73.9856644?hl=en-GB">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="ts.jpg" alt="TIMES SQUARE" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> TIMES SQUARE</h3>
+<a href="https://www.google.com/maps/place/Times+Square/@40.7579747,-73.9855426,15z/data=!4m5!3m4!1s0x0:0x55194ec5a1ae072e!8m2!3d40.7579747!4d-73.9855426?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="bb.jpg" alt="BROOKLYN BRIDGE" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> BROOKLYN BRIDGE</h3>
+<a href="https://www.google.com/maps/place/Brooklyn+Bridge/@40.7060855,-73.9968643,15z/data=!4m5!3m4!1s0x0:0x2526ddba7abd465c!8m2!3d40.7060855!4d-73.9968643?hl=en-GB">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="bp.jpg" alt="BRYANT PARK" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> BRYANT PARK</h3>
+<a href="https://www.google.com/maps/place/Bryant+Park/@40.7535965,-73.9832326,15z/data=!4m5!3m4!1s0x0:0xb49cafb82537f1a7!8m2!3d40.7535965!4d-73.9832326?hl=en-GB">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="npl.jpg" alt="NEW YORK PUBLIC LIBRARY" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> NEW YORK PUBLIC LIBRARY</h3>
+<a href="https://www.google.com/maps/place/New+York+Public+Library+-+Stephen+A.+Schwarzman+Building/@40.7531823,-73.9822534,15z/data=!4m5!3m4!1s0x0:0x3b51df6e509a734c!8m2!3d40.7531823!4d-73.9822534?hl=en">LOCATION</a>
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.hotel1 {
+  border-color: #ffa64d;
+  color: #ffa64d;
+}
+
+.hotel1:hover {
+  background-color: #ffa64d;
+  color: white;
+}
+
+</style>
+
+</head>
+<body style="background-image : url('hotels.jpg');background-repeat:no-repeat;background-size:cover;">
+<h2 style=" border:2px solid white;background-color:#ffa64d;text-align:center;padding:10px;color:white;">HOTELS TO STAY</h2><br>
+<h1 style ="color:#ffa64d;"> FOR RESERVATION : </h1>
+<button class="btn hotel1" onclick="document.location='https://www.pchotels.com/pckarachi/en/rooms-and-suites.html'">HOTEL PEARL CONTINENTAL</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.avaritowers.com/'">AVARI TOWERS</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.movenpick.com/en/asia/pakistan/karachi/hotel-karachi/overview/'">MOVENPICK HOTEL KARACHI </button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.wyndhamhotels.com/ramada/karachi-pakistan/ramada-plaza-karachi-airport-hotel/overview'">RAMADA HOTEL</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.marriott.com/hotels/travel/khipk-karachi-marriott-hotel/'">KARACHI MARRIOTT</button>
+
+
+
+
+</body>
+</html>

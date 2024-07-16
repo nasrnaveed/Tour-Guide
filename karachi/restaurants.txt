@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.col-md-2 cw {
+  border:5px solid white;
+  text-align:center;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body style = background-color:#ffa64d;>
+<marquee scrollamount="20"><h2 style=" border:2px solid white;text-align:center;padding:10px;color:white;">RESTAURANTS TO EAT</h2></marquee>
+<br><br><br><br><br><br><br>
+<div class="row">
+  <div class="col-md-2 cw" style="background-color:white;">
+	<br><h3 style = "color:#ffbf80;"> KOLACHI RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/Kolachi+Restaurant+pk/@24.7565704,67.0953851,15z/data=!4m5!3m4!1s0x0:0xbee5f39cab2cec77!8m2!3d24.7565704!4d67.0953851">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:#ffbf80;">
+<br><h3 style = "color:white;"> LALQILA RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/LalQila+Restaurant+Karachi/@24.8722755,67.0907754,15z/data=!4m5!3m4!1s0x0:0xf8830cefa06c2a7d!8m2!3d24.8722755!4d67.0907754">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#ffbf80;"> THE PAKISTANI</h3>
+<a href="https://www.google.com/maps/place/The+Pakistani/@24.846723,67.026029,15z/data=!4m5!3m4!1s0x0:0x20b65b239b914753!8m2!3d24.846723!4d67.026029">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:#ffbf80;">
+<br><h3 style = "color:white;"> SIZZLERZ CAFE AND GRILL</h3>
+<a href="https://www.google.com/maps/place/Sizzlerz+Cafe+%26+Grill/@24.8627174,67.0551261,15z/data=!4m5!3m4!1s0x0:0x67b96af9dc857a53!8m2!3d24.8627789!4d67.0551973">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#ffbf80;"> SAKURA</h3>
+<a href="https://www.google.com/maps/place/Sakura/@24.8474002,67.0258166,15z/data=!4m5!3m4!1s0x0:0x64e11b3c7018da71!8m2!3d24.8474701!4d67.0259562">LOCATION</a><br><br>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="col-md-2 cw" style="background-color:#ffbf80;">
+<br><h3 style = "color:white;"> OKRA - THE RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/Okra+-+The+Restaurant/@24.8183957,67.0394704,15z/data=!4m5!3m4!1s0x0:0x81aa9fbabffa255a!8m2!3d24.8184775!4d67.0394904">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#ffbf80;"> CAFE AYLANTO</h3>
+<a href="https://www.google.com/maps/place/Cafe+Aylanto/@24.804218,67.0312242,15z/data=!4m5!3m4!1s0x0:0x7d3ca9c7bb6abeba!8m2!3d24.804218!4d67.0312242">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:#ffbf80;">
+<br><h3 style = "color:white;"> MARCOPOLO</h3>
+<a href="https://www.google.com/maps/place/Marco+Polo/@24.8473786,67.0248219,15z/data=!4m5!3m4!1s0x0:0x2cca4fc6c1f4b1c!8m2!3d24.8473556!4d67.0247706">LOCATION</a><br><br>
+</div>
+ <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#ffbf80;"> KABAB-JI</h3>
+<a href="https://www.google.com/maps/place/Kabab-Ji+Sindhi+Restaurant/@24.8464393,67.0263176,15z/data=!4m5!3m4!1s0x0:0x71eb7a588c93553d!8m2!3d24.8466514!4d67.0261625">LOCATION</a><br><br>
+  </div>
+   <div class="col-md-2 cw" style="background-color:#ffbf80;">
+<br><h3 style = "color:white;"> XANDER'S</h3>
+<a href="https://www.google.com/maps/place/Xander's/@24.8663903,67.0777874,15z/data=!4m5!3m4!1s0x0:0x78967cb3148c0491!8m2!3d24.8664008!4d67.0778211">LOCATION</a><br><br>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

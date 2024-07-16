@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #85e0e0;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+	text-align:center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #99e6e6;
+  padding: 20px;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 10px;
+  background-color:#b3ffff;
+}
+footer {
+  background-color: #85e0e0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<header>
+<h2>NEW YORK</h2>
+</header>
+
+<section>
+<nav>
+<br><br><br>
+<img src="main.jpg" alt="NEW YORK" style=" width:220px;height:270px;">
+
+<br><br><br>
+
+</nav>
+  
+<article>
+<h1>History and Importance : </h1>
+<p ><i>New York City (NYC), often simply called New York, is the most populous city in the United States. With <br>
+an estimated 2019 population of 8,336,817 distributed over about 302.6 square miles (784 km2), New <br>
+York City is also the most densely populated major city in the United States. Located at the <br>
+southern tip of the State of New York, the city is the center of the New York metropolitan area, <br>
+the largest metropolitan area in the world by urban area. With almost 20 million people in its <br>
+metropolitan statistical area and approximately 23 million in its combined statistical area, it <br>
+is one of the world's most populous megacities. New York City has been described as the <br>
+cultural, financial, and media capital of the world, significantly influencing commerce, <br>
+entertainment, research, technology, education, politics, tourism, art, fashion, and sports, <br>
+and is the most photographed city in the world. Home to the headquarters of the United Nations, <br>
+New York is an important center for international diplomacy, and has sometimes been called the <br>
+capital of the world.<br>
+Situated on one of the world's largest natural harbors, New York City is composed of five boroughs, <br>
+each of which is a county of the State of New York. The five boroughs—Brooklyn, Queens, Manhattan, <br>
+the Bronx, and Staten Island—were created when local governments were consolidated into a single city<br>
+in 1898. The city and its metropolitan area constitute the premier gateway for legal immigration to <br>
+the United States. As many as 800 languages are spoken in New York, making it the most linguistically <br>
+diverse city in the world. New York is home to more than 3.2 million residents born outside the United <br>
+States, the largest foreign-born population of any city in the world as of 2016. As of 2019, the New <br>
+York metropolitan area is estimated to produce a gross metropolitan product (GMP) of $2.0 trillion. <br>
+If the New York metropolitan area were a sovereign state, it would have the eighth-largest economy in <br>
+the world. New York is home to the highest number of billionaires of any city in the world.
+</i></p>
+  </article>
+</section>
+
+<footer>
+<h1> VISIT NEW YORK </h1>
+</footer>
+
+</body>
+</html>

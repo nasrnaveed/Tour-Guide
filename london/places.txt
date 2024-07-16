@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.col-md-2 cw {
+  border:2px solid white;
+  text-align:center;
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body style = background-color:#999966;>
+<marquee scrollamount="15"><h2 style=" border:2px solid white;text-align:center;padding:10px;color:white;">PLACES TO VISIT</h2></marquee>
+<div class="row">
+  <div class="col-md-2 cw">
+<img src="le.jpg" alt="LONDON EYE" style="width:230px;height:162px;border :2px solid white;">
+	<h3 style = "color:white;"> LONDON EYE</h3>
+<a href="https://www.google.com/maps/place/lastminute.com+London+Eye/@51.5032973,-0.1195537,15z/data=!4m5!3m4!1s0x0:0x4291f3172409ea92!8m2!3d51.5032973!4d-0.1195537?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="bp.jpg" alt="BUCKINGHAM PALACE GARDENS" style="width:230px;height:162px;border :2px solid white;"> 
+<h3 style = "color:white;"> BUCKINGHAM PALACE GARDENS</h3>
+<a href="https://www.google.com/maps/place/Buckingham+Palace+Garden/@51.5011202,-0.1460413,15z/data=!4m5!3m4!1s0x0:0xb2f6de4d52b68d21!8m2!3d51.5011202!4d-0.1460413?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="tl.jpg" alt="TOWER OF LONDON" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> TOWER OF LONDON</h3>
+<a href="https://www.google.com/maps/place/Tower+of+London/@51.5081124,-0.0759493,15z/data=!4m5!3m4!1s0x0:0xa8bf49dde1d56467!8m2!3d51.5081124!4d-0.0759493?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="wm.jpg" alt="WESTMINSTER LONDON" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> WESTMINSTER LONDON</h3>
+<a href="https://www.google.com/maps/place/Westminster,+London,+UK/@51.4977568,-0.1522502,14z/data=!3m1!4b1!4m5!3m4!1s0x487604ddae95b455:0xcd1d64863bc57f40!8m2!3d51.4974948!4d-0.1356583?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="cam.jpg" alt="CAMDEN LONDON" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> CAMDEN LONDON</h3>
+<a href="https://www.google.com/maps/place/Camden+Town,+London,+UK/@51.5407134,-0.1676347,14z/data=!3m1!4b1!4m5!3m4!1s0x48761b1c5f1a9429:0x5ffdbed0f63cba58!8m2!3d51.5390261!4d-0.1425516?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="sd.jpg" alt="SHOREDITCH LONDON" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> SHOREDITCH LONDON</h3>
+<a href="https://www.google.com/maps/place/Shoreditch,+London,+UK/data=!4m2!3m1!1s0x48761ca4fbee1efd:0x799b6c9640d63bfd?sa=X&hl=en&ved=2ahUKEwjPj5yZkrDxAhXSgVwKHXKjB3EQ8gEwgQF6BAhfEAE">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="hh.jpg" alt="HAMPSTEAD HEATH" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> HAMPSTEAD HEATH</h3>
+<a href="https://www.google.com/maps/place/Hampstead+Heath/@51.5608294,-0.1629416,15z/data=!4m5!3m4!1s0x0:0xbdd3e2d4d7155038!8m2!3d51.5608294!4d-0.1629416?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="tc.jpg" alt="THAMES CRUISE LONDON" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> THAMES CRUISE LONDON</h3>
+<a href="https://www.google.com/maps/place/Thames+Cruises+Ltd/@51.4949663,-0.1216735,15z/data=!4m5!3m4!1s0x0:0x8aa29a7ba3b849d4!8m2!3d51.4949663!4d-0.1216735?hl=en">LOCATION</a>
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

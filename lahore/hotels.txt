@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.hotel1 {
+  border-color: #ac7339;
+  color: #ac7339;
+}
+
+.hotel1:hover {
+  background-color: #ac7339;
+  color: white;
+}
+
+</style>
+
+</head>
+<body style="background-image : url('hotels.jpg');background-repeat:no-repeat;background-size:cover;">
+<h2 style=" border:2px solid white;background-color:#ac7339;text-align:center;padding:10px;color:white;">HOTELS TO STAY</h2><br>
+<h1 style ="color:#ac7339;"> FOR RESERVATION : </h1>
+<button class="btn hotel1" onclick="document.location='https://www.pchotels.com/pclahore'">HOTEL PEARL CONTINENTAL</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.avarilahore.com/'">AVARI HOTEL LAHORE</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.hotelone.com.pk/'">HOTEL ONE LAHORE</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.trivago.com/lahore-86227/hotel/hospitality-inn-lahore-103014'">HOTEL HOSPITALITY INN</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.booking.com/hotel/pk/faletti-39-s-lahore.html'">FALETTI'S HOTEL LAHORE</button>
+
+
+
+
+</body>
+</html>

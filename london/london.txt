@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #999966;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+	text-align:center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #adad85;
+  padding: 20px;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 10px;
+  background-color:#c2c2a3;
+}
+footer {
+  background-color: #999966;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<header>
+<h2>LONDON</h2>
+</header>
+
+<section>
+<nav>
+<br><br><br>
+<img src="main.jpg" alt="LONDON" style=" width:220px;height:270px;">
+<br><br><br>
+</nav>
+  
+<article>
+<h1>History and Importance : </h1>
+
+<p ><i>London is the capital and largest city of England and the United Kingdom. The city stands on the River Thames<br>
+in the south-east of England, at the head of its 50-mile (80 km) estuary leading to the North Sea. London has <br>
+been a major settlement for two millennia, and was originally called Londinium, which was founded by the Romans. <br>
+The City of London, London's ancient core and financial centre—an area of just 1.12 square miles (2.9 km2) and <br>
+colloquially known as the Square Mile—retains boundaries that closely follow its medieval limits. The adjacent<br>
+City of Westminster has for centuries been the location of much of the national government. Thirty-one additional <br>
+boroughs north and south of the river also comprise modern London. The London region is governed by the mayor of <br>
+London and the London Assembly. London is one of the world's most important global cities. It exerts considerable <br>
+influence upon the arts, commerce, education, entertainment, fashion, finance, healthcare, media, professional <br>
+services, research and development, tourism and transportation. It is one of the largest financial centres in <br>
+the world and in 2019, London had the second highest number of ultra high-net-worth individuals in Europe, after<br>
+Paris. And in 2020, London had the second-highest number of billionaires of any city in Europe, after Moscow. <br>
+London's universities form the largest concentration of higher education institutes in Europe, and London is home <br>
+to highly ranked institutions such as Imperial College London in natural and applied sciences, the London School <br>
+of Economics in social sciences, as well as the comprehensive University College London. In 2012, London became <br>
+the first city to have hosted three modern Summer Olympic Games.
+</i></p>
+  </article>
+</section>
+
+<footer>
+<h1> VISIT LONDON </h1>
+</footer>
+
+</body>
+</html>
