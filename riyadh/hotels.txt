@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.hotel1 {
+  border-color: tan;
+  color: tan;
+}
+
+.hotel1:hover {
+  background-color: tan;
+  color: white;
+}
+
+</style>
+
+</head>
+<body style="background-image : url('hotels.jpg');background-repeat:no-repeat;background-size:cover;">
+<h2 style=" border:2px solid white;background-color:tan;text-align:center;padding:10px;color:white;">HOTELS TO STAY</h2><br>
+<h1 style ="color:tan;"> FOR RESERVATION : </h1>
+<button class="btn hotel1" onclick="document.location='https://www.ritzcarlton.com/en/hotels/saudi-arabia/riyadh#HOTEL'">THE RITZ-CARLTON RIYADH</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.fourseasons.com/riyadh/'">FOUR SEASONS</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.fairmont.com/riyadh/'">FAIRMONT </button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.radissonhotels.com/en-us/hotels/radisson-blu-riyadh?cid=a:se+b:gmb+c:emea+i:local+e:rdb+d:mea+h:RUHZH'">RADISON BLU</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.marriott.com/hotels/travel/ruhdq-marriott-riyadh-diplomatic-quarter/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_OTY1ODY0NC03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D'">MARRIOTT RIYADH DIPLOMATIC QUARTERS</button>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.hotel1 {
+  border-color: #d98cb3;
+  color: #d98cb3;
+}
+
+.hotel1:hover {
+  background-color: #d98cb3;
+  color: white;
+}
+
+</style>
+
+</head>
+<body style="background-image : url('hotels.jpg');background-repeat:no-repeat;background-size:cover;">
+<h2 style=" border:2px solid white;background-color:#d98cb3;text-align:center;padding:10px;color:white;">HOTELS TO STAY</h2><br>
+<h1 style ="color:#d98cb3;"> FOR RESERVATION : </h1>
+<button class="btn hotel1" onclick="document.location='https://all.accor.com/hotel/2175/index.en.shtml?utm_campaign=seo+maps&utm_medium=seo+maps&utm_source=google+Maps">MERCURE PARIS</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://all.accor.com/hotel/7229/index.en.shtml?utm_campaign=seo+maps&utm_medium=seo+maps&utm_source=google+Maps'">PULLMAN PARIS</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.timhotel-paris-tour-eiffel.fr/en/'">TIMHOTEL </button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.melia.com/en/hotels/france/paris/innside-paris-charles-de-gaulle/index.htm?utm_medium=organic&utm_source=uberall&utm_content=dynamic'">INNSiDE</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.shangri-la.com/paris/shangrila/'">SHANGRI-LA</button>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.hotel1 {
+  border-color: #85adad;
+  color: #85adad;
+}
+
+.hotel1:hover {
+  background-color: #85adad;
+  color: white;
+}
+
+</style>
+
+</head>
+<body style="background-image : url('hotels.jpg');background-repeat:no-repeat;background-size:cover;">
+<h2 style=" border:2px solid white;background-color:#85adad;text-align:center;padding:10px;color:white;">HOTELS TO STAY</h2><br>
+<h1 style ="color:#85adad;"> FOR RESERVATION : </h1>
+<button class="btn hotel1" onclick="document.location='https://www.fairmont.com/royal-york-toronto/'">FAIRMONT</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.ritzcarlton.com/en/hotels/canada/toronto#HOTEL'">THE RITZ-CARLTON </button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.marriott.com/hotels/travel/yyzxr-the-st-regis-toronto/'">THE ST.REGIS </button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.fourseasons.com/toronto/'">FOUR SEASONS</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.thehazeltonhotel.com/'">THE HAZELTON</button>
+
+
+
+
+</body>
+</html>

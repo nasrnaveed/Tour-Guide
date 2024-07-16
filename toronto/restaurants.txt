@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.col-md-2 cw {
+  border:5px solid white;
+  text-align:center;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body style = background-color:#85adad;>
+<marquee scrollamount="20"><h2 style=" border:2px solid white;text-align:center;padding:10px;color:white;">RESTAURANTS TO EAT</h2></marquee>
+<br><br><br><br><br><br><br>
+<div class="row">
+  <div class="col-md-2 cw" style="background-color:white;">
+	<br><h3 style = "color:#94b8b8;"> ALO RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/Alo/@43.6484905,-79.3959415,15z/data=!4m5!3m4!1s0x0:0xd05dd320ed94d61b!8m2!3d43.6484905!4d-79.3959415">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:#94b8b8;">
+<br><h3 style = "color:white;"> CHUBBY'S JAMAICAN KITCHEN</h3>
+<a href="https://www.google.com/maps/place/Chubby's+Jamaican+Kitchen/@43.6453093,-79.4006543,15z/data=!4m5!3m4!1s0x0:0x8c64c2d1d7abf541!8m2!3d43.6453093!4d-79.4006543">LOCATION</a><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#94b8b8;"> DaiLo</h3>
+<a href="https://www.google.com/maps/place/DaiLo/@43.6558567,-79.4098845,15z/data=!4m5!3m4!1s0x0:0x270f98c5c693f3f4!8m2!3d43.6558567!4d-79.4098845">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:#94b8b8;">
+<br><h3 style = "color:white;"> RISTORANTE SOTTO SOTTO</h3>
+<a href="https://www.google.com/maps/place/Ristorante+Sotto+Sotto+Toronto/@43.6736944,-79.3964972,15z/data=!4m5!3m4!1s0x0:0x3028fc7df1953a91!8m2!3d43.6736944!4d-79.3964972">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#94b8b8;"> BUCA OSTERIA</h3>
+<a href="https://www.google.com/maps/place/Buca+Osteria+%26+Bar/@43.6721819,-79.38933,15z/data=!4m5!3m4!1s0x0:0x22ad7602688db775!8m2!3d43.6723413!4d-79.3894003">LOCATION</a><br><br>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="col-md-2 cw" style="background-color:#94b8b8;">
+<br><h3 style = "color:white;"> DANDYLION </h3>
+<a href="https://www.google.com/maps/place/Dandylion/@43.6427394,-79.4265734,15z/data=!4m5!3m4!1s0x0:0x278c0030b05a23b!8m2!3d43.6427394!4d-79.4265734">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#94b8b8;"> GUSTO 101</h3>
+<a href="https://www.google.com/maps/place/Gusto+101/@43.645179,-79.4001406,15z/data=!4m2!3m1!1s0x0:0xede9f116f39d376?sa=X&ved=2ahUKEwiul4fYyLXxAhWUo3EKHdZND08Q_BIwdXoFCIYBEAU">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:#94b8b8;">
+<br><h3 style = "color:white;"> BARBERIAN'S STEAKHOUSE</h3>
+<a href="google.com/maps/place/Barberian's+Steak+House/@43.6576627,-79.3821822,15z/data=!4m5!3m4!1s0x0:0x26d1bcc10a0339fe!8m2!3d43.6576627!4d-79.3821822">LOCATION</a><br><br>
+</div>
+ <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#94b8b8;"> CONSTANTINE</h3>
+<a href="https://www.google.com/maps/place/Constantine+Toronto/@43.6686542,-79.3853935,15z/data=!4m5!3m4!1s0x0:0x925ad15dd27c1636!8m2!3d43.6686797!4d-79.3854348">LOCATION</a><br><br>
+  </div>
+   <div class="col-md-2 cw" style="background-color:#94b8b8;">
+<br><h3 style = "color:white;"> LA BANANE</h3>
+<a href="https://www.google.com/maps/place/La+Banane/@43.6491122,-79.4201464,15z/data=!4m5!3m4!1s0x0:0x4f536e29c0825db7!8m2!3d43.6490393!4d-79.4205226">LOCATION</a><br><br>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
