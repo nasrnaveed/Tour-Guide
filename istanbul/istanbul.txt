@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<body style= "background-color: steelblue;">
+<button style = " background-color:steelblue; color:white; padding:10px;border-color:white;" onclick="document.location='file:///C:/Users/hp/Desktop/IICT%20Assignments/Project/MainPro.html'">CITIES</button>
+<marquee scrollamount= "15"> <h1 style = "color:white; text-align:center; border :2px solid white;padding:15px;">GUIDE TO ISTANBUL </h1></marquee>
+<img src="main.jpg" alt="ISTANBUL" style=" width:220px;height:270px;display: block;margin-left: auto;margin-right: auto;">
+<br>
+<h2 style="color:white;">HISTORY AND IMPORTANCE: </h2>
+<p style="color:white;">Istanbul is the largest city in Turkey and the country's economic, cultural and historic center. The city straddles the <br>
+Bosphorus strait, and lies in both Europe and Asia, with a population of over 15 million residents, comprising 19% of the <br>
+population of Turkey. Istanbul is the most populous city in Europe, and the world's fifteenth-largest city.<br>
+Founded as Byzantion by Megarian colonists in 657 BCE, and renamed by Constantine the Great first as New Rome (Nova Roma) <br>
+during the official dedication of the city as the new Roman capital in 330 CE, which he soon afterwards changed as <br>
+Constantinople (Constantinopolis), the city grew in size and influence, becoming a beacon of the Silk Road and one <br>
+of the most important cities in history. It served as an imperial capital for almost sixteen centuries, during the <br>
+Roman/Byzantine (330–1204), Latin (1204–1261), Byzantine (1261–1453), and Ottoman (1453–1922) empires. It was <br>
+instrumental in the advancement of Christianity during Roman and Byzantine times, before its transformation to an <br>
+Islamic stronghold following the Fall of Constantinople in 1453 CE. In 1923, after the Turkish War of Independence, <br>
+Ankara replaced the city as the capital of the newly formed Republic of Turkey. In 1930 the city's name was officially <br>
+changed to Istanbul, an appellation Greek speakers used since the eleventh century to colloquially refer to the city.</p>
+<br><br><br>
+<h2 style="color:white;">PLACES TO VISIT: </h2>
+<h3 style = "color:white;"> AyaSofya Cami</h3>
+<img src="as.jpeg" alt="AyaSofya Cami" style="float :right; width:230px;height:162px;border :2px solid white;">
+<br><br><br><br><br><br>
+<a href="https://www.google.com/maps/place/AYASOFYA+CAM%C3%8E/@41.0085564,28.9801295,15z/data=!4m5!3m4!1s0x0:0xfcd2029b4edb612c!8m2!3d41.0085357!4d28.9801546?hl=en">LOCATION</a>
+<h3 style = "color:white;"> The Blue Mosque</h3>
+<img src="bm.jpg" alt="Blue Mosque" style="float :right; width:230px;height:162px;border :2px solid white;">
+<br><br><br><br><br><br>
+<a href="https://www.google.com/maps/place/The+Blue+Mosque/@41.0054096,28.9768138,15z/data=!4m2!3m1!1s0x0:0xe52df7368a157ca4?sa=X&hl=en&ved=2ahUKEwim8Iej6qbxAhWlyIUKHVS8DfQQ_BIwf3oFCJ4BEAU">LOCATION</a>
+<h3 style = "color:white;"> Topkapi Palace Museum</h3>
+<img src="tp.jpg" alt="Topkapi Palace Museum" style="float :right; width:230px;height:162px;border :2px solid white;">
+<br><br><br><br><br><br>
+<a href="https://www.google.com/maps/place/Topkapi+Palace+Museum/@41.0115195,28.9833789,15z/data=!4m5!3m4!1s0x0:0x15aa1943c3015300!8m2!3d41.0115195!4d28.9833789?hl=en">LOCATION</a>
+<h3 style = "color:white;"> Grand Bazar</h3>
+<img src="gb.jpg" alt="Grand Bazar" style="float :right; width:230px;height:162px;border :2px solid white;">
+<br><br><br><br><br><br>
+<a href="https://www.google.com/maps/place/Grand+Bazaar/@41.0106848,28.9680681,15z/data=!4m5!3m4!1s0x0:0x64c8680b5ac198ab!8m2!3d41.0106848!4d28.9680681?hl=en">LOCATION</a>
+<h3 style = "color:white;"> Basilica Cistern</h3>
+<img src="bc.jpg" alt="Basilica Cistern" style="float :right; width:230px;height:162px;border :2px solid white;">
+<br><br><br><br><br><br>
+<a href="https://www.google.com/maps/place/Basilica+Cistern/@41.008384,28.977878,15z/data=!4m5!3m4!1s0x0:0x60c02fe1ee6d8471!8m2!3d41.008359!4d28.9778409?hl=en">LOCATION</a>
+<h3 style = "color:white;"> Galata Tower</h3>
+<img src="gt.jpg" alt="Galata Tower" style="float :right; width:230px;height:162px;border :2px solid white;">
+<br><br><br><br><br><br>
+<a href="https://www.google.com/maps/place/Galata+Tower/@41.0256097,28.974167,15z/data=!4m5!3m4!1s0x0:0x4c76cf3dcc8b330b!8m2!3d41.0256687!4d28.9740459?hl=en">LOCATION</a>
+<h3 style = "color:white;"> Dolmabahçe Palace</h3>
+<img src="dp.jpg" alt="Dolmabahçe Palace" style="float :right; width:230px;height:162px;border :2px solid white;">
+<br><br><br><br><br><br>
+<a href="https://www.google.com/maps/place/Dolmabah%C3%A7e+Palace/@41.0391643,29.0004594,15z/data=!4m5!3m4!1s0x0:0xdcd33e38cf3b830b!8m2!3d41.0391643!4d29.0004594?hl=en">LOCATION</a>
+<h3 style = "color:white;"> Büyük Mecidiye Cami</h3>
+<img src="bmc.jpg" alt="Büyük Mecidiye Cami" style="float :right; width:230px;height:162px;border :2px solid white;">
+<br><br><br><br><br><br>
+<a href="https://www.google.com/maps/place/Mecidiye,+B%C3%BCy%C3%BCk+Mecidiye+Cami,+34347+Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul,+Turkey/@41.0472925,29.0267655,15z/data=!4m5!3m4!1s0x0:0x571a5f186ae45a05!8m2!3d41.0472925!4d29.0267655?hl=en">LOCATION</a>
+<br> <br> <br>
+<h2 style="color:white;">HOTELS TO STAY: </h2>
+<h3 style = "color:white;"> InterContinental Istanbul</h3>
+<a href="https://istanbul.intercontinental.com/">FOR RESERVATION CLICK HERE</a>
+<h3 style = "color:white;"> Swissôtel The Bosphorus Istanbul</h3>
+<a href="https://www.swissotel.com/hotels/istanbul/">FOR RESERVATION CLICK HERE</a>
+<h3 style = "color:white;"> The Peak</h3>
+<a href="https://www.thepeakhotel.com.tr/en/">FOR RESERVATION CLICK HERE</a>
+<h3 style = "color:white;"> The Marmara</h3>
+<a href="https://www.themarmarahotels.com/the-marmara-taksim-hotel.aspx">FOR RESERVATION CLICK HERE</a>
+<h3 style = "color:white;"> Istanbul Marriott</h3>
+<a href="https://www.marriott.com/hotels/travel/istdt-istanbul-marriott-hotel-sisli/">FOR RESERVATION CLICK HERE</a>
+<br><br><br>
+<h2 style="color:white;">RESTAURANTS TO VISIT: </h2>
+<h3 style = "color:white;"> Deraliye</h3>
+<a href="https://www.google.com/maps/place/Deraliye/@41.0088451,28.9758594,15z/data=!4m5!3m4!1s0x0:0xfcefecb3d43b2028!8m2!3d41.0092371!4d28.9755746">LOCATION</a>
+<h3 style = "color:white;"> 1924 Istanbul</h3>
+<a href="https://www.google.com/maps/place/1924+%C4%B0stanbul/@41.0328289,28.9760582,15z/data=!4m2!3m1!1s0x0:0x74d888d921683d2e?sa=X&ved=2ahUKEwjhn9ng96bxAhUKxoUKHc9CAIwQ_BIwX3oECG4QBQ">LOCATION</a>
+<h3 style = "color:white;"> Sur Balık Restoran Sarayburnu</h3>
+<a href="https://www.google.com/maps/place/Sur+Bal%C4%B1k+Restoran+Sarayburnu/@41.0023083,28.9793417,15z/data=!4m5!3m4!1s0x0:0x6739df5eabce9ec1!8m2!3d41.0023083!4d28.9793417">LOCATION</a>
+<h3 style = "color:white;"> Byzantion Bistro Restaurant</h3>
+<a href="https://www.google.com/maps/place/Byzantion+Bistro+Restaurant/@41.0101279,28.9543791,15z/data=!4m5!3m4!1s0x0:0x8282a7af349beede!8m2!3d41.0101281!4d28.954415">LOCATION</a>
+<h3 style = "color:white;"> Roof Mezze 360</h3>
+<a href="https://www.google.com/maps/place/Roof+Mezze+360/@41.0137392,28.9769154,15z/data=!4m5!3m4!1s0x0:0x32d44de0eea80503!8m2!3d41.0137345!4d28.9769105">LOCATION</a>
+<h3 style = "color:white;"> Zeferan Restaurant</h3>
+<a href="https://www.google.com/maps/place/Zeferan+Restaurant/@41.0063576,28.9691697,15z/data=!4m5!3m4!1s0x0:0xe39fba584e4691d3!8m2!3d41.0063576!4d28.9691697">LOCATION</a>
+<h3 style = "color:white;"> Hidden Garden</h3>
+<a href="https://www.google.com/maps/place/Hidden+Garden/@41.006779,28.9724121,15z/data=!4m5!3m4!1s0x0:0x6d7a0fe832213f66!8m2!3d41.0067777!4d28.9724099">LOCATION</a>
+<h3 style = "color:white;"> Last Ottoman Cafe & Restaurant</h3>
+<a href="https://www.google.com/maps/place/Last+Ottoman+Cafe+%26+Restaurant/@41.0137809,28.9782371,15z/data=!4m5!3m4!1s0x0:0xefd7ecba28084fdf!8m2!3d41.0137809!4d28.9782371">LOCATION</a>
+<h3 style = "color:white;"> Three Partners Cafe & Restaurant</h3>
+<a href="https://www.google.com/maps/place/three+partners+cafe+%26+restaurant/@41.0034946,28.9735191,15z/data=!4m5!3m4!1s0x0:0xe2a7186997ac9178!8m2!3d41.0035023!4d28.9735196">LOCATION</a>
+<h3 style = "color:white;"> Mivan Restaurant & Cafe</h3>
+<a href="https://www.google.com/maps/place/Mivan+Restaurant+%26+Cafe/@41.0062206,28.9690295,15z/data=!4m2!3m1!1s0x0:0xec87cf56fc90f8d2?sa=X&ved=2ahUKEwiW4MKE_KbxAhVJ1xoKHe6VDOIQ_BIwLHoECHIQBQ">LOCATION</a>
+<br><br><br>
+<h1 style = "color:white; text-align:center; border :2px solid white;padding:15px;">VISIT ISTANBUL </h1>
+</body>
+</html>

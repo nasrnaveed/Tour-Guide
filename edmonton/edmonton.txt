@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #8585ad ;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+	text-align:center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #a3a3c2;
+  padding: 20px;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 10px;
+  background-color:#d1d1e0 ;
+}
+footer {
+  background-color: #8585ad ;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<header>
+<h2>EDMONTON</h2>
+</header>
+
+<section>
+<nav>
+<br><br><br>
+<img src="main.jpg" alt="LONDON" style=" width:220px;height:270px;">
+
+<br><br><br>
+
+</nav>
+  
+<article>
+<h1>History and Importance : </h1>
+<p ><i>Edmonton is the capital city of the Canadian province of Alberta. Edmonton is on the North Saskatchewan <br>
+River and is the centre of the Edmonton Metropolitan Region, which is surrounded by Alberta's <br>
+central region. The city anchors the north end of what Statistics Canada defines as the <br>
+"Calgary–Edmonton Corridor".<br>
+The metro area of Edmonton had a population of 1,491,000 at the beginning of 2021, making it <br>
+Alberta's second-largest city (after Calgary) and Canada's fifth-largest municipality. Edmonton's <br>
+2019 municipal census subsequently recorded a population of 972,223.[10] Also in 2016, Edmonton <br>
+had a metropolitan population of 1,321,426, making it the sixth-largest census metropolitan <br>
+area (CMA) in Canada. Edmonton is North America's northernmost metropolitan area with a population <br>
+over one million. A resident of Edmonton is known as an Edmontonian.<br>
+Edmonton is a cultural, governmental and educational centre. It hosts a year-round slate of festivals, <br>
+reflected in the nickname "Canada's Festival City". It is home to North America's largest mall, West <br>
+Edmonton Mall (the world's largest mall from 1981 until 2004), and Fort Edmonton Park, Canada's <br>
+largest living history museum.
+</i></p>
+  </article>
+</section>
+
+<footer>
+<h1> VISIT EDMONTON </h1>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="jquery-3.6.4.min.js"></script>
+    <style>
+        nav {
+            background-color: #ece6da;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        nav .navbar-brand {
+            color: #526289;
+        }
+
+        footer {
+            color: #526289;
+            background-color: #ece6da;
+            padding: 10px;
+        }
+
+        @keyframes animation1 {
+            0% {
+                left: 100px;
+            }
+
+            50% {
+                left: 1200px;
+            }
+
+            100% {
+                left: 100px;
+            }
+        }
+
+        @keyframes animation2 {
+            0% {
+                left: 1200px;
+            }
+
+            50% {
+                left: 100px;
+            }
+
+            100% {
+                left: 1200px;
+            }
+        }
+
+        .animated1 {
+            color: #526289;
+            position: relative;
+            animation: animation1 20s infinite;
+        }
+
+        .animated2 {
+            color: #526289;
+            position: relative;
+            animation: animation2 20s infinite;
+        }
+    </style>
+    <title>Home - Tour Guide</title>
+    <div class="animated1">
+        <p><b>WELCOME TO TOUR GUIDE</b></p>
+    </div>
+    <h1 style="color:#526289;text-align:center;font-size:50px; padding-top: 20px;">TOUR GUIDE</h1>
+    <img src="bg1.png" alt="GUIDE" style="display: block;margin-left: auto;margin-right: auto;">
+    <div class="animated2">
+        <p><b>RESERVE NOW !!</b></p>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">Home</a>
+                <a class="navbar-brand" href="cities.html">Cities</a>
+                <a class="navbar-brand" href="reserve.html">Reserve</a>
+                <a class="navbar-brand" href="contactus.html">Contact Us</a>
+                <a class="navbar-brand" href="aboutus.html">About Us</a>
+            </div>
+        </nav>
+    </div>
+    <br><br>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="cities.html">
+                                <img src="Cities.png" class="d-block w-100" alt="cities">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="reserve.html">
+                                <img src="reserve.png" class="d-block w-100" alt="reserve">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="contactus.html">
+                                <img src="contactus.png" class="d-block w-100" alt="contactus">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="aboutus.html">
+                                <img src="aboutus.png" class="d-block w-100" alt="aboutus">
+                            </a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br><br>
+</body>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>For more Info</h3>
+                <h5>Email :</h5>
+                <p>bookaguide@gmail.com</p>
+                <h5>Phone : </h5>
+                <p>111-778-887</p>
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+                <h3>Join Our Newsletter to stay updated</h3>
+                <form action="news.php" method="post">
+                    <input type="email" name="email" placeholder="Enter your e-mail" class="form-control"><br>
+                    <input type="submit" value="Submit" class="btn btn-outline-secondary">
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>

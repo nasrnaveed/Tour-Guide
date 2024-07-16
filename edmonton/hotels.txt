@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.hotel1 {
+  border-color: #8585ad;
+  color: #8585ad;
+}
+
+.hotel1:hover {
+  background-color: #8585ad;
+  color: white;
+}
+
+</style>
+
+</head>
+<body style="background-image : url('hotels.jpg');background-repeat:no-repeat;background-size:cover;">
+<h2 style=" border:2px solid white;background-color:#8585ad;text-align:center;padding:10px;color:white;">HOTELS TO STAY</h2><br>
+<h1 style ="color:#8585ad;"> FOR RESERVATION : </h1>
+<button class="btn hotel1" onclick="document.location='https://www.marriott.com/hotels/travel/yegjw-jw-marriott-edmonton-ice-district/'">JW MARRIOTT</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.marriott.com/hotels/travel/yeges-delta-hotels-edmonton-south-conference-centre/'">DELTA HOTELS</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.fairmont.com/macdonald-edmonton/'">FAIRMONT </button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://flh.ca/'">FANTASYLAND HOTEL</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.marriott.com/hotels/travel/yegwi-the-westin-edmonton/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_MTcxNTAwMi03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D'">THE WESTIN</button>
+
+
+
+
+</body>
+</html>

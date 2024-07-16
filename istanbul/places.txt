@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.col-md-2 cw {
+  border:2px solid white;
+  text-align:center;
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body style = background-color:palevioletred;>
+<marquee scrollamount="20"><h2 style=" border:2px solid white;text-align:center;padding:10px;color:white;">PLACES TO VISIT</h2></marquee>
+<div class="row">
+  <div class="col-md-2 cw">
+<img src="as.jpeg" alt="AyaSofya Cami" style="width:230px;height:162px;border :2px solid white;">
+	<h3 style = "color:white;"> AYASOFYA CAMI</h3>
+<a href="https://www.google.com/maps/place/AYASOFYA+CAM%C3%8E/@41.0085564,28.9801295,15z/data=!4m5!3m4!1s0x0:0xfcd2029b4edb612c!8m2!3d41.0085357!4d28.9801546?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="bm.jpg" alt="Blue Mosque" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> BLUE MOSQUE</h3>
+<a href="https://www.google.com/maps/place/The+Blue+Mosque/@41.0054096,28.9768138,15z/data=!4m2!3m1!1s0x0:0xe52df7368a157ca4?sa=X&hl=en&ved=2ahUKEwim8Iej6qbxAhWlyIUKHVS8DfQQ_BIwf3oFCJ4BEAU">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="tp.jpg" alt="Topkapi Palace Museum" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> TOPKAPI PALACE MUSEUM</h3>
+<a href="https://www.google.com/maps/place/Topkapi+Palace+Museum/@41.0115195,28.9833789,15z/data=!4m5!3m4!1s0x0:0x15aa1943c3015300!8m2!3d41.0115195!4d28.9833789?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="gb.jpg" alt="Grand Bazar" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> GRAND BAZAR</h3>
+<a href="https://www.google.com/maps/place/Grand+Bazaar/@41.0106848,28.9680681,15z/data=!4m5!3m4!1s0x0:0x64c8680b5ac198ab!8m2!3d41.0106848!4d28.9680681?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="bc.jpg" alt="Basilica Cistern" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> BASILICA CISTERN</h3>
+<a href="https://www.google.com/maps/place/Basilica+Cistern/@41.008384,28.977878,15z/data=!4m5!3m4!1s0x0:0x60c02fe1ee6d8471!8m2!3d41.008359!4d28.9778409?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="gt.jpg" alt="Galata Tower" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> GALATA TOWER</h3>
+<a href="https://www.google.com/maps/place/Galata+Tower/@41.0256097,28.974167,15z/data=!4m5!3m4!1s0x0:0x4c76cf3dcc8b330b!8m2!3d41.0256687!4d28.9740459?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="dp.jpg" alt="Dolmabahçe Palace" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> DOLMABACE PALACE</h3>
+<a href="https://www.google.com/maps/place/Dolmabah%C3%A7e+Palace/@41.0391643,29.0004594,15z/data=!4m5!3m4!1s0x0:0xdcd33e38cf3b830b!8m2!3d41.0391643!4d29.0004594?hl=en">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="bmc.jpg" alt="Büyük Mecidiye Cami" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;">BÜYÜK MECIDIYE CAMI </h3>
+<a href="https://www.google.com/maps/place/Mecidiye,+B%C3%BCy%C3%BCk+Mecidiye+Cami,+34347+Be%C5%9Fikta%C5%9F%2F%C4%B0stanbul,+Turkey/@41.0472925,29.0267655,15z/data=!4m5!3m4!1s0x0:0x571a5f186ae45a05!8m2!3d41.0472925!4d29.0267655?hl=en">LOCATION</a>
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

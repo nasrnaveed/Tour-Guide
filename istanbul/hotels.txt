@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.hotel1 {
+  border-color: palevioletred;
+  color: palevioletred;
+}
+
+.hotel1:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+</style>
+
+</head>
+<body style="background-image : url('hotels.jpg');background-repeat:no-repeat;background-size:cover;">
+<h2 style=" border:2px solid white;background-color:palevioletred;text-align:center;padding:10px;color:white;">HOTELS TO STAY</h2><br>
+<h1 style ="color:palevioletred;"> FOR RESERVATION : </h1>
+<button class="btn hotel1" onclick="document.location='https://istanbul.intercontinental.com/'">INTERCONTINENTAL ISTANBUL</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.swissotel.com/hotels/istanbul/'">SWISSÔTEL THE BOSPHORUS ISTANBUL</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.thepeakhotel.com.tr/en/'">THE PEAK HOTEL </button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.themarmarahotels.com/the-marmara-taksim-hotel.aspx'">THE MARMARA</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='https://www.marriott.com/hotels/travel/istdt-istanbul-marriott-hotel-sisli/'">ISTANBUL MARRIOTT</button>
+
+
+
+
+</body>
+</html>

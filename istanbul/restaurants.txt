@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.col-md-2 cw {
+  border:5px solid white;
+  text-align:center;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body style = background-color:palevioletred;>
+<marquee scrollamount="20"><h2 style=" border:2px solid white;text-align:center;padding:10px;color:white;">RESTAURANTS TO EAT</h2></marquee>
+<br><br><br><br><br><br><br>
+<div class="row">
+  <div class="col-md-2 cw" style="background-color:white;">
+	<br><h3 style = "color:pink;"> DERALIYE</h3>
+<a href="https://www.google.com/maps/place/Deraliye/@41.0088451,28.9758594,15z/data=!4m5!3m4!1s0x0:0xfcefecb3d43b2028!8m2!3d41.0092371!4d28.9755746">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:pink;">
+<br><h3 style = "color:white;"> 1924 ISTANBUL</h3>
+<a href="https://www.google.com/maps/place/1924+%C4%B0stanbul/@41.0328289,28.9760582,15z/data=!4m2!3m1!1s0x0:0x74d888d921683d2e?sa=X&ved=2ahUKEwjhn9ng96bxAhUKxoUKHc9CAIwQ_BIwX3oECG4QBQ">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:pink;"> SUR BALIK RESTORAN SARAYBURNU</h3>
+<a href="https://www.google.com/maps/place/Sur+Bal%C4%B1k+Restoran+Sarayburnu/@41.0023083,28.9793417,15z/data=!4m5!3m4!1s0x0:0x6739df5eabce9ec1!8m2!3d41.0023083!4d28.9793417">LOCATION</a><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:pink;">
+<br><h3 style = "color:white;"> BYZANTION BISTRO RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/Byzantion+Bistro+Restaurant/@41.0101279,28.9543791,15z/data=!4m5!3m4!1s0x0:0x8282a7af349beede!8m2!3d41.0101281!4d28.954415">LOCATION</a><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:pink;"> ROOF MEZZE 360</h3>
+<a href="https://www.google.com/maps/place/Roof+Mezze+360/@41.0137392,28.9769154,15z/data=!4m5!3m4!1s0x0:0x32d44de0eea80503!8m2!3d41.0137345!4d28.9769105">LOCATION</a><br><br>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="col-md-2 cw" style="background-color:pink;">
+<br><h3 style = "color:white;"> ZEFERAN RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/Zeferan+Restaurant/@41.0063576,28.9691697,15z/data=!4m5!3m4!1s0x0:0xe39fba584e4691d3!8m2!3d41.0063576!4d28.9691697">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:pink;"> HIDDEN GARDEN</h3>
+<a href="https://www.google.com/maps/place/Hidden+Garden/@41.006779,28.9724121,15z/data=!4m5!3m4!1s0x0:0x6d7a0fe832213f66!8m2!3d41.0067777!4d28.9724099">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:pink;">
+<br><h3 style = "color:white;"> LAST OTTOMAN CAFE & RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/Last+Ottoman+Cafe+%26+Restaurant/@41.0137809,28.9782371,15z/data=!4m5!3m4!1s0x0:0xefd7ecba28084fdf!8m2!3d41.0137809!4d28.9782371">LOCATION</a><br>
+</div>
+ <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:pink;"> THREE PARTNERS CAFE & RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/three+partners+cafe+%26+restaurant/@41.0034946,28.9735191,15z/data=!4m5!3m4!1s0x0:0xe2a7186997ac9178!8m2!3d41.0035023!4d28.9735196">LOCATION</a><br>
+  </div>
+   <div class="col-md-2 cw" style="background-color:pink;">
+<br><h3 style = "color:white;"> MIVAN RESTAURANT & CAFE</h3>
+<a href="https://www.google.com/maps/place/Mivan+Restaurant+%26+Cafe/@41.0062206,28.9690295,15z/data=!4m2!3m1!1s0x0:0xec87cf56fc90f8d2?sa=X&ved=2ahUKEwiW4MKE_KbxAhVJ1xoKHe6VDOIQ_BIwLHoECHIQBQ">LOCATION</a><br><br>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

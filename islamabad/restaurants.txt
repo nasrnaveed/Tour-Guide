@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.col-md-2 cw {
+  border:5px solid white;
+  text-align:center;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body style = background-color:lightblue;>
+<marquee scrollamount="20"><h2 style=" border:2px solid white;text-align:center;padding:10px;color:white;">RESTAURANTS TO EAT</h2></marquee>
+<br><br><br><br><br><br><br>
+<div class="row">
+  <div class="col-md-2 cw" style="background-color:white;">
+	<br><h3 style = "color:#b3e6ff;"> THE MONAL ISLAMABAD</h3>
+<a href="https://www.google.com/maps/place/The+Monal+Islamabad/@33.76009,73.0656798,15z/data=!4m5!3m4!1s0x0:0x440c38883a64cd51!8m2!3d33.7601289!4d73.0655444">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:#b3e6ff;">
+<br><h3 style = "color:white;"> 2 BROKE ENGINEERS</h3>
+<a href="https://www.google.com/maps/place/2+Broke+Engineers/@33.7222367,73.0582101,15z/data=!4m5!3m4!1s0x0:0x5e95e59e97744b09!8m2!3d33.7222367!4d73.0582101">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#b3e6ff;"> WILD RICE RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/Wild+Rice+Restaurant/@33.715434,73.101882,15z/data=!4m5!3m4!1s0x0:0xd9dd9daa40420dce!8m2!3d33.715434!4d73.101882">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:#b3e6ff;">
+<br><h3 style = "color:white;"> ATRIO CAFE AND GRILL</h3>
+<a href="https://www.google.com/maps/place/Atrio+Caf%C3%A9+%26+Grill/@33.722084,73.058151,15z/data=!4m5!3m4!1s0x0:0x4db14772eba687c0!8m2!3d33.722084!4d73.058151">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#b3e6ff;"> CAVE RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/Cave+Restaurant/@33.7271802,73.0871879,15z/data=!4m5!3m4!1s0x0:0xce92fb1849482567!8m2!3d33.7271241!4d73.0870783">LOCATION</a><br><br>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="col-md-2 cw" style="background-color:#b3e6ff;">
+<br><h3 style = "color:white;"> SAVOUR FOODS</h3>
+<a href="https://www.google.com/maps/place/Savour+Foods/@33.7132036,73.0634688,15z/data=!4m5!3m4!1s0x0:0x68f50820a41d12a!8m2!3d33.7131272!4d73.0635269">LOCATION</a><br><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#b3e6ff;"> BURN OUT RESTAURANT AND CAFE</h3>
+<a href="https://www.google.com/maps/place/Burn+Out+Restaurant+%26+Cafe/@33.7227552,73.0595654,15z/data=!4m5!3m4!1s0x0:0x688599145bff0878!8m2!3d33.7227552!4d73.0595654">LOCATION</a><br>
+  </div>
+  <div class="col-md-2 cw" style="background-color:#b3e6ff;">
+<br><h3 style = "color:white;"> KIM MUN CHINESE RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/Kim+Mun+Chinese+Restaurant/@33.7211092,73.0582764,15z/data=!4m5!3m4!1s0x0:0xf4e9fcb58bbe4389!8m2!3d33.7211228!4d73.0582576">LOCATION</a><br>
+</div>
+ <div class="col-md-2 cw" style="background-color:white;">
+<br><h3 style = "color:#b3e6ff;"> 1969 RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/1969+Restaurant/@33.6866014,73.0734335,15z/data=!4m5!3m4!1s0x0:0x8832165b240f6cba!8m2!3d33.6865944!4d73.0733434">LOCATION</a><br><br>
+  </div>
+   <div class="col-md-2 cw" style="background-color:#b3e6ff;">
+<br><h3 style = "color:white;"> SHANDEZ RESTAURANT</h3>
+<a href="https://www.google.com/maps/place/Shandez+Restaurant/@33.6931064,72.9861514,15z/data=!4m5!3m4!1s0x0:0x237fda18bf56cb0!8m2!3d33.6931064!4d72.9861514">LOCATION</a><br><br>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

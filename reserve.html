@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="jquery-3.6.4.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#btncalc").click(function () {
+        var city = $('#city :selected').val();
+        var startDate = new Date($('#sd').val());
+        var endDate = new Date($('#ed').val());
+        var timeDiff = endDate.getTime() - startDate.getTime();
+        var days = Math.ceil(timeDiff / (1000 * 3600 * 24));
+        var numPeople = $('#numP').val();
+        var type = $('input[name="type"]:checked').val();
+        switch (city) {
+          case "Edmonton":
+            if (type == "private") {
+              var baseCharge = 30;
+            }
+            else {
+              var baseCharge = 5 * numPeople;
+            }
+            var total = baseCharge * days;
+            alert("Estimated Cost : $" + total);
+            break;
+          case "Islamabad":
+            if (type == "private") {
+              var baseCharge = 18;
+            }
+            else {
+              var baseCharge = 3 * numPeople;
+            }
+            var total = baseCharge * days;
+            alert("Estimated Cost : $" + total);
+            break;
+          case "Istanbul":
+            if (type == "private") {
+              var baseCharge = 24;
+            }
+            else {
+              var baseCharge = 4 * numPeople;
+            }
+            var total = baseCharge * days;
+            alert("Estimated Cost : $" + total);
+            break;
+          case "Karachi":
+            if (type == "private") {
+              var baseCharge = 24;
+            }
+            else {
+              var baseCharge = 4 * numPeople;
+            }
+            var total = baseCharge * days;
+            alert("Estimated Cost : $" + total);
+            break;
+          case "Lahore":
+            if (type == "private") {
+              var baseCharge = 24;
+            }
+            else {
+              var baseCharge = 4 * numPeople;
+            }
+            var total = baseCharge * days;
+            alert("Estimated Cost : $" + total);
+            break;
+          case "London":
+            if (type == "private") {
+              var baseCharge = 30;
+            }
+            else {
+              var baseCharge = 5 * numPeople;
+            }
+            var total = baseCharge * days;
+            alert("Estimated Cost : $" + total);
+            break;
+          case "New York":
+            if (type == "private") {
+              var baseCharge = 36;
+            }
+            else {
+              var baseCharge = 6 * numPeople;
+            }
+            var total = baseCharge * days;
+            alert("Estimated Cost : $" + total);
+            break;
+          case "Paris":
+            if (type == "private") {
+              var baseCharge = 36;
+            }
+            else {
+              var baseCharge = 6 * numPeople;
+            }
+            var total = baseCharge * days;
+            alert("Estimated Cost : $" + total);
+            break;
+          case "Riyadh":
+            if (type == "private") {
+              var baseCharge = 24;
+            }
+            else {
+              var baseCharge = 4 * numPeople;
+            }
+            var total = baseCharge * days;
+            alert("Estimated Cost : $" + total);
+            break;
+          case "Toronto":
+            if (type == "private") {
+              var baseCharge = 36;
+            }
+            else {
+              var baseCharge = 6 * numPeople;
+            }
+            var total = baseCharge * days;
+            alert("Estimated Cost : $" + total);
+            break;
+        }
+      });
+    });
+  </script>
+  <style>
+    nav {
+      background-color: #ece6da;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    nav .navbar-brand {
+      color: #526289;
+    }
+
+    footer {
+      color: #526289;
+      background-color: #ece6da;
+      padding: 10px;
+    }
+
+    @keyframes animation1 {
+      0% {
+        left: 100px;
+      }
+
+      50% {
+        left: 1200px;
+      }
+
+      100% {
+        left: 100px;
+      }
+    }
+
+    @keyframes animation2 {
+      0% {
+        left: 1200px;
+      }
+
+      50% {
+        left: 100px;
+      }
+
+      100% {
+        left: 1200px;
+      }
+    }
+
+    .animated1 {
+      color: #526289;
+      position: relative;
+      animation: animation1 20s infinite;
+    }
+
+    .animated2 {
+      color: #526289;
+      position: relative;
+      animation: animation2 20s infinite;
+    }
+
+    .dform {
+      background-color: #ece6da;
+      margin-left: 200px;
+      margin-right: 200px;
+      padding: 10px;
+      border-radius: 15px;
+      text-align: center;
+      color: #526289;
+    }
+  </style>
+  <title>Reserve - Tour Guide</title>
+  <div class="animated1">
+    <p><b>WELCOME TO TOUR GUIDE</b></p>
+  </div>
+  <h1 style="color:#526289;text-align:center;font-size:50px; padding-top: 20px;">TOUR GUIDE</h1>
+  <img src="bg1.png" alt="GUIDE" style="display: block;margin-left: auto;margin-right: auto;">
+  <div class="animated2">
+    <p><b>RESERVE NOW !!</b></p>
+  </div>
+  <div class="container">
+    <nav class="navbar navbar-expand-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">Home</a>
+        <a class="navbar-brand" href="cities.html">Cities</a>
+        <a class="navbar-brand" href="reserve.html">Reserve</a>
+        <a class="navbar-brand" href="contactus.html">Contact Us</a>
+        <a class="navbar-brand" href="aboutus.html">About Us</a>
+      </div>
+    </nav>
+  </div>
+  <br>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="dform">
+          <form action="reg.php" method="post">
+            <div class="row">
+              <h2>Reserve a Guide</h2><br><br>
+              <div class="col">
+                Name <br> <input type="text" name="name" placeholder="Enter Name" class="form-control" required>
+              </div>
+              <div class="col">
+                Contact Number <br> <input type="text" name="cnum" placeholder="Enter Contact Number"
+                  class="form-control" required>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col">
+                Email <br> <input type="email" name="emailR" placeholder="Enter e-mail" class="form-control" required>
+              </div>
+              <div class="col">
+                City to Visit <br>
+                <select name="City" id="city" class="form-control" required>
+                  <option value="Select a City" selected>Select a City</option>
+                  <option value="Edmonton">Edmonton</option>
+                  <option value="Islamabad">Islamabad</option>
+                  <option value="Istanbul">Istanbul</option>
+                  <option value="Karachi">Karachi</option>
+                  <option value="Lahore">Lahore</option>
+                  <option value="London">London</option>
+                  <option value="New York">New York</option>
+                  <option value="Paris">Paris</option>
+                  <option value="Riyadh">Riyadh</option>
+                  <option value="Toronto">Toronto</option>
+                </select>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col">
+                Start Date <br> <input type="date" name="sdate" id="sd" placeholder="Select Start Date"
+                  class="form-control" required>
+              </div>
+              <div class="col">
+                End Date <br> <input type="date" name="edate" id="ed" placeholder="Select End Date" class="form-control"
+                  required>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col">
+                Number of People <br> <input type="number" placeholder="Select Number of People" name="people" id="numP"
+                  class="form-control" required>
+              </div>
+              <div class="col">
+                Guide Type <br> <input type="radio" name="type" value="private"> Private
+                <input type="radio" name="type" value="group"> Group <br><br>
+              </div>
+            </div>
+            <br>
+            <input type="button" value="Calculate" class="btn btn-outline-secondary" id="btncalc">
+            <input type="submit" value="Reserve" class="btn btn-outline-secondary">
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <br><br>
+</body>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>For more Info</h3>
+        <h5>Email :</h5>
+        <p>bookaguide@gmail.com</p>
+        <h5>Phone : </h5>
+        <p>111-778-887</p>
+
+      </div>
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+        <h3>Join Our Newsletter to stay updated</h3>
+        <form action="news.php" method="post">
+          <input type="email" name="email" placeholder="Enter your e-mail" class="form-control"><br>
+          <input type="submit" value="Submit" class="btn btn-outline-secondary">
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.col-md-2 cw {
+  border:2px solid white;
+  text-align:center;
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body style = background-color:#8585ad;>
+<marquee scrollamount="20"><h2 style=" border:2px solid white;text-align:center;padding:10px;color:white;">PLACES TO VISIT</h2></marquee>
+<div class="row">
+  <div class="col-md-2 cw">
+<img src="wem.jpg" alt="WEST EDMONTON MALL" style="width:230px;height:162px;border :2px solid white;">
+	<h3 style = "color:white;"> WEST EDMONTON MALL</h3>
+<a href="https://www.google.com/maps/place/West+Edmonton+Mall/@53.5225151,-113.6241906,15z/data=!4m5!3m4!1s0x0:0x8546a29e09b26fcb!8m2!3d53.5225151!4d-113.6241906">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="alb.jpg" alt="ALBERTA LEGISLATURE BUILDING" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> ALBERTA LEGISLATURE BUILDING</h3>
+<a href="https://www.google.com/maps/place/Alberta+Legislature+Building/@53.5334764,-113.5066378,15z/data=!4m5!3m4!1s0x0:0xe5b3fefc21999a09!8m2!3d53.5334805!4d-113.5064333">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="ag.jpg" alt="ART GALLERY OF ALBERTA" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> ART GALLERY OF ALBERTA</h3>
+<a href="https://www.google.com/maps/place/Art+Gallery+of+Alberta/@53.5447543,-113.4889519,15z/data=!4m5!3m4!1s0x0:0x5d8219c1a4f87aec!8m2!3d53.5447482!4d-113.4889508">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="whp.jpg" alt="WILLIAM HAWRELAK PARK" style=" width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> WILLIAM HAWRELAK PARK</h3>
+<a href="https://www.google.com/maps/place/Hawrelak+Park/@53.527866,-113.5474445,15z/data=!4m5!3m4!1s0x0:0x8c221d68096ccd51!8m2!3d53.527866!4d-113.5474445?hl=en-GB">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="evz.jpg" alt="EDMONTON VALLEY ZOO" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> EDMONTON VALLEY ZOO </h3>
+<a href="https://www.google.com/maps/place/Edmonton+Valley+Zoo/@53.5109055,-113.5535637,15z/data=!4m5!3m4!1s0x0:0xa7d343e6f63d3254!8m2!3d53.5109055!4d-113.5535637?hl=en-GB">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="tw.jpg" alt="TELUS WORLD OF SCIENCE" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> TELUS WORLD OF SCIENCE</h3>
+<a href="https://www.google.com/maps/place/TELUS+World+of+Science+-+Edmonton/@53.5610024,-113.5658141,17z/data=!3m1!4b1!4m5!3m4!1s0x53a021612ba9acf9:0xd660439968c95baf!8m2!3d53.5610024!4d-113.5636254?hl=en-GB">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="uab.jpg" alt="UNIVERSITY OF ALBERTA BOTANIC GARDEN" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> UNIVERSITY OF ALBERTA BOTANIC GARDEN</h3>
+<a href="https://www.google.com/maps/place/University+of+Alberta+Botanic+Garden/@53.4080055,-113.7605246,15z/data=!4m5!3m4!1s0x0:0x92a5293c7c4a1549!8m2!3d53.4080055!4d-113.7605246?hl=en-GB">LOCATION</a>
+  </div>
+  <div class="col-md-2 cw">
+<img src="mc.jpg" alt="MUTTRAT CONSERVATORY" style="width:230px;height:162px;border :2px solid white;">
+<h3 style = "color:white;"> MUTTRAT CONSERVATORY</h3>
+<a href="https://www.google.com/maps/place/Muttart+Conservatory/@53.5351999,-113.4772947,15z/data=!4m5!3m4!1s0x0:0xa250aced7da2cfb5!8m2!3d53.5351999!4d-113.4772947?hl=en-GB">LOCATION</a>
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

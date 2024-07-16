@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.hotel1 {
+  border-color: #8585ad;
+  color: #8585ad;
+}
+
+.hotel1:hover {
+  background-color: #8585ad;
+  color: white;
+}
+
+</style>
+
+</head>
+<body style="background-image : url('bg.jpg');background-repeat:no-repeat;background-size:cover;">
+<h2 style=" border:2px solid white;background-color:#8585ad;text-align:center;padding:10px;color:white;">TOUR GUIDE</h2><br>
+<br>
+<h1 style ="color:#8585ad;"> WHILE STAY : </h1><br>
+<button class="btn hotel1" onclick="document.location='edmonton.html'">HISTORY AND IMPORTANCE</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='places.html'">PLACES TO VISIT</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='hotels.html'">HOTELS TO STAY</button><br><br><br>
+<button class="btn hotel1" onclick="document.location='restaurants.html'">RESTAURANTS TO EAT</button><br><br><br>
+
+
+
+
+
+</body>
+</html>
